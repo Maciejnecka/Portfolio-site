@@ -48,14 +48,14 @@ const StyledResume = styled.div`
     }
 
     ${media.tablet`
-      font-size: 1.25rem;
+      font-size: 1.5rem;
       padding: 1rem 3rem;
     `}
 
     ${media.mobile`
       margin: 3rem auto;
-      font-size: 1rem;
-      padding: 0.5rem 1.5rem;
+      font-size: 1.2rem;
+      padding: 0.6rem 1.7rem;
     `}
   }
 
