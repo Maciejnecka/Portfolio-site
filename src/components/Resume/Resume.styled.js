@@ -29,8 +29,8 @@ const StyledResume = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.8rem;
-    letter-spacing: 1px;
+    font-size: 2rem;
+    letter-spacing: 1.2px;
     font-weight: bold;
     padding: 1.75rem 7rem;
     background-color: var(--main-color-blue);
