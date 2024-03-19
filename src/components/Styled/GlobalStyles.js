@@ -10,11 +10,11 @@ const GlobalStyles = createGlobalStyle`
 
    --border-radius: 10px;
 
-   --font-main-white: #fff;
+   --font-main-white: #FFFFFF;
    --font-main-gray: #A3A3A2;
    --font-main-black: #1A1A20;
 
-   --main-color-blue: #0F8B8D;
+   --main-color-blue: #20A0A1;
    --main-color-dark: #05494A;
 
    --icons-carousel-backgroud: #6fb9bb;
