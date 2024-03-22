@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.js": "/Portfolio-site/static/js/main.3ae3f9b2.js",
+    "static/media/CV.pdf": "/Portfolio-site/static/media/CV.fc83c6e9ddf1db89c5fa.pdf",
+    "static/media/RobotoMonoLightItalic.ttf": "/Portfolio-site/static/media/RobotoMonoLightItalic.967bee7c12d18800b9b3.ttf",
+    "static/media/RobotoMonoLight.ttf": "/Portfolio-site/static/media/RobotoMonoLight.234f40fa88a810bad5e4.ttf",
+    "static/media/RobotoMonoBold.ttf": "/Portfolio-site/static/media/RobotoMonoBold.7211ab61a8b83177865a.ttf",
+    "static/media/RobotoMonoRegular.ttf": "/Portfolio-site/static/media/RobotoMonoRegular.94ffabb10cbc81ee42ba.ttf",
+    "static/media/AppLabLow.avif": "/Portfolio-site/static/media/AppLabLow.3f9a39d2deccdfac7b97.avif",
+    "static/media/TaskManagerLow.avif": "/Portfolio-site/static/media/TaskManagerLow.713446eeb68411e68e63.avif",
+    "static/media/ProfileTablet.png": "/Portfolio-site/static/media/ProfileTablet.64c2814cea2f32d9ec2a.png",
+    "static/media/ProfileDesktop.png": "/Portfolio-site/static/media/ProfileDesktop.a4e7fd290aef452aefe7.png",
+    "static/media/babel-logo.svg": "/Portfolio-site/static/media/babel-logo.a64fc9b31d9270c13b0316738f8a59bf.svg",
+    "static/media/MeetingFormLow.avif": "/Portfolio-site/static/media/MeetingFormLow.59628e92075e51cf7100.avif",
+    "static/media/react-logo.svg": "/Portfolio-site/static/media/react-logo.2a4fe4c2e1c04549db6527cb1907482f.svg",
+    "static/media/webpack-logo.svg": "/Portfolio-site/static/media/webpack-logo.8919a9df8794110dc2407e6255f9b476.svg",
+    "static/media/api-logo.svg": "/Portfolio-site/static/media/api-logo.082c06b8cbb08f92fefc319d97ac061a.svg",
+    "static/media/sass-logo.svg": "/Portfolio-site/static/media/sass-logo.757dd92880996870562408126e62f27c.svg",
+    "static/media/git-logo.svg": "/Portfolio-site/static/media/git-logo.f72f4618d4b9936940d05347047447a1.svg",
+    "static/media/js-logo.svg": "/Portfolio-site/static/media/js-logo.c6c0a7260c58209b2403b638b2da4ff0.svg",
+    "static/media/npm-logo.svg": "/Portfolio-site/static/media/npm-logo.b6254c173d3117022d6e47665c97c336.svg",
+    "static/media/Github.svg": "/Portfolio-site/static/media/Github.7aa9e9140e14d9692b592cdefac167ad.svg",
+    "static/media/MailIcon.svg": "/Portfolio-site/static/media/MailIcon.5b52f40b387fcc828db1bcc7ce10d986.svg",
+    "index.html": "/Portfolio-site/index.html",
+    "static/media/ArrowUp.svg": "/Portfolio-site/static/media/ArrowUp.105962570a84ea14fe61103d7f4aeb21.svg",
+    "static/media/Download.svg": "/Portfolio-site/static/media/Download.68a7931c587b5a00ae9c2e78102ef89b.svg",
+    "static/media/Close.svg": "/Portfolio-site/static/media/Close.fea12710afb58ce9b340aabda8ea7c72.svg",
+    "static/media/Hamburger.svg": "/Portfolio-site/static/media/Hamburger.ea9dec9eb106881f5c9873930e817d47.svg",
+    "static/media/css-logo.svg": "/Portfolio-site/static/media/css-logo.ff6ee3d75fe4687eae2d2c7beafd88ae.svg",
+    "static/media/html-logo.svg": "/Portfolio-site/static/media/html-logo.b52d17a157cb57802080c19b3bd0a9c2.svg",
+    "static/media/ExternalLink.svg": "/Portfolio-site/static/media/ExternalLink.e0ebcdde9cad293aa98129cc66b729de.svg",
+    "main.3ae3f9b2.js.map": "/Portfolio-site/static/js/main.3ae3f9b2.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.3ae3f9b2.js"
+  ]
+}
