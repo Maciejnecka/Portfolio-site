@@ -39,54 +39,56 @@ const Projects = () => {
   return (
     <StyledProjects id="projects">
       <InteractiveCanvas />
-      <h1 className="projects__title">
-        <Underline>My projects</Underline>
-      </h1>
-      <p className="projects__introduction">
-        Here you'll find a collection of my recent work, showcasing my skills in
-        web development. Throughout my learning journey, I have completed over
-        120 tasks and 20 projects. From these, I have selected the following to
-        present to you.
-      </p>
-      {projects.map((project, index) => (
-        <div key={index} className="project">
-          <div className="project__image-container">
-            <img
-              src={project.screenshot}
-              alt={project.name}
-              className="project__image"
-              width="800"
-              height="600"
-            />
-          </div>
-          <div className="project__details">
-            <h2 className="project__name">{project.name}</h2>
-            <p className="project__description">{project.description}</p>
-            <div className="project__link-container">
-              <a
-                className="project__link"
-                href={project.srcLink}
-                target="_blank"
-                rel="noreferrer"
-                type="button"
-              >
-                Site
-                <ExternalLink className="project__link--external-icon" />
-              </a>
-              <a
-                className="project__link"
-                href={project.srcGH}
-                target="_blank"
-                rel="noreferrer"
-                type="button"
-              >
-                Github
-                <GitHub className="project__link--github-icon" />
-              </a>
+      <div className="projects__container">
+        <h1 className="projects__title">
+          <Underline>My projects</Underline>
+        </h1>
+        <p className="projects__introduction">
+          Here you'll find a collection of my recent work, showcasing my skills
+          in web development. Throughout my learning journey, I have completed
+          over 120 tasks and 20 projects. From these, I have selected the
+          following to present to you.
+        </p>
+        {projects.map((project, index) => (
+          <div key={index} className="project">
+            <div className="project__image-container">
+              <img
+                src={project.screenshot}
+                alt={project.name}
+                className="project__image"
+                width="800"
+                height="600"
+              />
+            </div>
+            <div className="project__details">
+              <h2 className="project__name">{project.name}</h2>
+              <p className="project__description">{project.description}</p>
+              <div className="project__link-container">
+                <a
+                  className="project__link"
+                  href={project.srcLink}
+                  target="_blank"
+                  rel="noreferrer"
+                  type="button"
+                >
+                  Site
+                  <ExternalLink className="project__link--external-icon" />
+                </a>
+                <a
+                  className="project__link"
+                  href={project.srcGH}
+                  target="_blank"
+                  rel="noreferrer"
+                  type="button"
+                >
+                  Github
+                  <GitHub className="project__link--github-icon" />
+                </a>
+              </div>
             </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </StyledProjects>
   );
 };

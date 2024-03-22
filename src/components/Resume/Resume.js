@@ -27,7 +27,7 @@ const Resume = () => {
   }, []);
 
   return (
-    <StyledResume>
+    <StyledResume data-aos="zoom-in" data-aos-duration="2000">
       <h2 className="resume__heading">I also invite you to view my CV</h2>
       {!isMobileDevice() && (
         <button className="resume__show-btn" onClick={toggleCVVisibility}>

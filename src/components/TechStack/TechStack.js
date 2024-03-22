@@ -38,7 +38,11 @@ const TechStack = () => {
           development toolkit.
         </p>
       </div>
-      <div className="techstack">
+      <div
+        className="techstack"
+        data-aos="fade-zoom-in"
+        data-aos-duration="2000"
+      >
         <div className="techstack__carousel">
           <div className="techstack__carousel-track">
             {icons.concat(icons).map((icon, index) => (

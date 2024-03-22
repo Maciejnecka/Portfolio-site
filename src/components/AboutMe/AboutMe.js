@@ -12,7 +12,13 @@ const AboutMe = () => {
         <Underline>About Me</Underline>
       </h2>
       <div className="aboutme__content">
-        <div className="aboutme__text">
+        <div
+          className="aboutme__text"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="1500"
+        >
           <p className="aboutme__paragraph">
             I am an enthusiastic front-end developer who has been continuously
             expanding knowledge and skills in the fascinating world of user

@@ -5,7 +5,11 @@ import { ReactComponent as MailIcon } from '../../icons/MailIcon.svg';
 
 const Contact = () => (
   <StyledContact id="contact">
-    <div className="contact__info">
+    <div
+      className="contact__info"
+      data-aos="zoom-in-up"
+      data-aos-duration="2000"
+    >
       <h2 className="contact__heading">
         <Underline>Let's connect!</Underline>
       </h2>

@@ -5,7 +5,6 @@ const StyledProjects = styled.section`
   padding: 7rem 10rem;
   background-color: var(--color-main-background);
   color: var(--font-main-white);
-  max-width: var(--max-width);
   margin: 0 auto;
   position: relative;
   overflow: hidden;
@@ -18,6 +17,11 @@ const StyledProjects = styled.section`
   ${media.mobile`
     padding: 5rem 1rem;
   `}
+
+  .projects__container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+  }
 
   .projects__title {
     font-size: 4rem;

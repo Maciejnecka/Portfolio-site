@@ -88,6 +88,7 @@ const StyledTechStack = styled.section`
       top: 0;
       width: 250px;
       height: 100%;
+      z-index: 0;
 
       ${media.tablet`
       width: 150px;
@@ -100,6 +101,7 @@ const StyledTechStack = styled.section`
 
     &:before {
       left: 0;
+      z-index: 1;
       background: linear-gradient(
         to left,
         rgba(255, 255, 255, 0),

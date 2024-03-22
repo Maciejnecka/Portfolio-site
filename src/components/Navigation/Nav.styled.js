@@ -8,7 +8,6 @@ const StyledNavbar = styled.nav`
   box-sizing: border-box;
   background-color: var(--color-navbar-background);
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
   color: var(--font-main-white);
   height: 6rem;
   position: fixed;
