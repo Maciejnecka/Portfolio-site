@@ -2,14 +2,20 @@ import styled from 'styled-components';
 import { media } from '../Styled/mediaqueries';
 
 const StyledResume = styled.div`
+  margin-top: -2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 60vh;
   .resume__heading {
     color: var(--font-main-white);
     font-size: 2.5rem;
     text-align: center;
-    margin: 3rem auto;
+    margin: 0 auto;
     margin-bottom: 5rem;
     line-height: 1.4;
-    max-width: var(--max-width);
 
     ${media.tablet`
       font-size: 1.75rem;
@@ -77,7 +83,7 @@ const StyledResume = styled.div`
   }
 
   .resume__backdrop {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -86,7 +92,7 @@ const StyledResume = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 10;
+    z-index: 500;
   }
 
   .resume__cv-container {
@@ -95,12 +101,13 @@ const StyledResume = styled.div`
     justify-content: center;
     background-color: var(--cv-container-bg-color);
     padding: 20px;
+    margin: 3rem;
     border-radius: var(--border-radius);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     position: relative;
     width: 80%;
+    height: 90%;
     max-width: 800px;
-    height: 80%;
 
     ${media.tablet`
       padding: 15px;

@@ -6,8 +6,8 @@ const StyledTechStack = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding: 3rem 2rem;
   color: var(--font-main-white);
+  position: relative;
 
   ${media.tablet`
   margin-top: -7rem;
