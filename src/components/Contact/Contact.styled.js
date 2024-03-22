@@ -68,11 +68,12 @@ const StyledContact = styled.div`
     `}
 
     ${media.mobile`
-      font-size: 1.5rem;
+      font-size: 1.3rem;
+      letter-spacing: 1.5px;
       padding: 0.5rem 1.5rem;
       margin: 3rem auto;
     `}
-
+ 
     .contact__button--icon {
       margin-left: 2rem;
       width: 26px;

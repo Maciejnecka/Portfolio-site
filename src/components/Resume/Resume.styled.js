@@ -64,7 +64,6 @@ const StyledResume = styled.div`
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    font-size: 2rem;
     letter-spacing: 1px;
     max-width: 55%;
   }

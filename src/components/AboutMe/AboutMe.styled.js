@@ -3,7 +3,7 @@ import { media } from '../Styled/mediaqueries';
 
 const StyledAboutMe = styled.section`
   background-color: var(--color-main-background);
-  color: red;
+  color: var(--font-main-white);
   padding: 3rem 5rem;
   box-sizing: border-box;
   margin: 0 auto;
