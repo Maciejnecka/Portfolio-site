@@ -56,6 +56,7 @@ const StyledAboutMe = styled.section`
     flex-direction: column;
     justify-content: center;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    flex: 2;
 
     ${media.tablet`
       font-size: 1.2rem;
@@ -90,6 +91,7 @@ const StyledAboutMe = styled.section`
     margin-top: 2rem;
     width: 40%;
     height: 40%;
+    flex: 1.1;
     display: flex;
     align-items: center;
 
@@ -98,7 +100,8 @@ const StyledAboutMe = styled.section`
     `}
 
     ${media.mobile`
-     justify-content: center
+     justify-content: center;
+     flex: 2;
      width: 90%;
      order: 2;
     `}
@@ -106,7 +109,6 @@ const StyledAboutMe = styled.section`
 
   .aboutme__text,
   .aboutme__image {
-    flex: 1;
     min-width: 0;
   }
 

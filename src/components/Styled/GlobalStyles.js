@@ -28,7 +28,7 @@ const GlobalStyles = createGlobalStyle`
 
    --transition: all 0.5s;
 
-   --max-width: 1700px;
+   --max-width: 1400px;
 }
 html{
    scroll-behavior: smooth; 
