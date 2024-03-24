@@ -41,6 +41,7 @@ const TechStack = () => {
       <div
         className="techstack"
         data-aos="fade-zoom-in"
+        data-aos-offset="100"
         data-aos-duration="2000"
       >
         <div className="techstack__carousel">

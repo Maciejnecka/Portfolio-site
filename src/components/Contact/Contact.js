@@ -8,7 +8,8 @@ const Contact = () => (
     <div
       className="contact__info"
       data-aos="zoom-in-up"
-      data-aos-duration="2000"
+      data-aos-offset="100"
+      data-aos-duration="1250"
     >
       <h2 className="contact__heading">
         <Underline>Let's connect!</Underline>

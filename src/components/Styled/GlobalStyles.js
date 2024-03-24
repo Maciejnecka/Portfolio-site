@@ -25,6 +25,7 @@ const GlobalStyles = createGlobalStyle`
    --icon-color-gray: invert(69%) sepia(11%) saturate(0%) hue-rotate(136deg)
       brightness(94%) contrast(93%);
    --icon-color-blue: invert(30%) sepia(75%) saturate(2068%) hue-rotate(159deg) brightness(92%) contrast(88%);
+   --icon-color-blue-bright: invert(68%) sepia(40%) saturate(355%) hue-rotate(133deg) brightness(93%) contrast(86%);
 
    --transition: all 0.5s;
 
